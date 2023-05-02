@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const intValue = parseInt(int.value) || 0;
         const powValue = parseInt(pow.value) || 0;
         const chaValue = parseInt(cha.value) || 0;
+
+        characteristicsTotal.textContent = strValue+conValue+dexValue+sizValue+intValue+powValue+chaValue;
         /* Attributes */
         
         let modifierSizStr = sizValue + strValue; // combine sizValue and strValue
