@@ -1,7 +1,50 @@
 input {
     width: 30px;
+    height: 20px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    display: block;
+}
+h1 { text-align: center;}
+h2 {
+    font-size: 25px;
+    padding: 0;
+    margin: 3px;
+}
+
+div {
+    padding: 5px 5px 15px 5px;
+    margin: 5px auto 5px auto;
+    max-width: 768px;
 }
 
 .characteristics {
-    color: red;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.attributes {
+    background-color: #ccc;
+}
+
+.skills {
+    background-color: #ccc;
+}
+
+.attribute-points {
+    background-color: #ccc;
+}
+
+.hit-locations {
+    background-color: #ccc;
+}
+
+.weapon-skills {
+    background-color: #ccc;
 }
